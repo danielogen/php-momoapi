@@ -19,9 +19,9 @@ matrix:
   - php: 7.2.10
     env: 'COMPOSER_FLAGS="--prefer-stable --prefer-lowest"'
 
-script:
-- vendor/bin/phpcs --standard=psr2 src/
-- vendor/bin/phpunit --coverage-text --coverage-clover=coverage.clover
+## script:
+## - vendor/bin/phpcs --standard=psr2 src/
+## - vendor/bin/phpunit --coverage-text --coverage-clover=coverage.clover
 
 after_script:
 - |
