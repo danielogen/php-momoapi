@@ -30,13 +30,5 @@
         "tests/"
       ]
     }
-  },
-  "scripts": {
-    "test": [
-      "vendor/bin/phpunit"
-    ],
-    "coverage": [
-      "php -dzend_extension=xdebug.so ./vendor/bin/phpunit --coverage-text --coverage-html=build/coverage"
-    ]
   }
 }
